@@ -21,7 +21,6 @@ import org.bukkit.event.HandlerList;
     private static final HandlerList handlerList = new HandlerList();
     private final Player player;
     private final InfractionData.Infraction infraction;
-    private String message = "&e%player%&7 was caught using &e%check%&7. (VL=&e%vl%&7)";
     private boolean cancelled = false;
 
     public String getMessage() {
